@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lacuz.advancedcustomview.season.SeasonFragment">
+
+    <TextView
+        android:id="@+id/ivSpring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="@string/spring"
+        android:drawableTop="@mipmap/spring"/>
+
+
+    <TextView
+        android:id="@+id/ivSummer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivSpring"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="80dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/summer"
+        android:drawableTop="@mipmap/summer"/>
+
+
+    <TextView
+        android:id="@+id/ivFall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivSummer"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/fall"
+        android:drawableTop="@mipmap/fall"/>
+
+
+    <TextView
+        android:id="@+id/ivWinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivFall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="500dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/winter"
+        android:drawableTop="@mipmap/winter"/>
+
+
+
+</RelativeLayout>
