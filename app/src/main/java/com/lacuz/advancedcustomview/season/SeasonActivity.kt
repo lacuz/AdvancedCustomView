@@ -24,7 +24,7 @@ class SeasonActivity : Activity() {
                 rain.visibility = View.VISIBLE
             }
             1 -> {
-
+                summer.visibility = View.VISIBLE
             }
             2 -> {
                 fall.visibility = View.VISIBLE

@@ -6,8 +6,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="spring">春</string>
-    <string name="winter">冬</string>
-    <string name="fall">秋</string>
-    <string name="summer">夏</string>
+    <string name="spring">春雨</string>
+    <string name="summer">夏日</string>
+    <string name="fall">秋叶</string>
+    <string name="winter">冬雪</string>
 </resources>

@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import android.support.v4.app.FragmentPagerAdapter
+import com.lacuz.advancedcustomview.funny.OctopusFragment
 import com.lacuz.advancedcustomview.season.SeasonFragment
 
 
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val fgLists = arrayListOf<Fragment>()
         fgLists.add(SeasonFragment())
-        fgLists.add(SeasonFragment())
+        fgLists.add(OctopusFragment())
         fgLists.add(SeasonFragment())
         val mAdapter = object : FragmentPagerAdapter(supportFragmentManager) {
             override fun getItem(position: Int): Fragment {

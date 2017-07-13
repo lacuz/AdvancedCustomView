@@ -13,14 +13,24 @@
         android:layout_height="match_parent"
         android:visibility="gone" />
 
-    <com.lacuz.advancedcustomview.season.SnowView
-        android:id="@+id/snow"
+
+    <com.lacuz.advancedcustomview.season.summer.SceneSurfaceView
+        android:id="@+id/summer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
 
+
+
     <com.lacuz.advancedcustomview.season.LeafFallingView
         android:id="@+id/fall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <com.lacuz.advancedcustomview.season.SnowView
+        android:id="@+id/snow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />

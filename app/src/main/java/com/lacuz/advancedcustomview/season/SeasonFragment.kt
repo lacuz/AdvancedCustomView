@@ -24,14 +24,17 @@ class SeasonFragment : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        ivWinter.setOnClickListener {
-            SeasonActivity().actionActivity(activity,3)
-        }
         ivSpring.setOnClickListener {
             SeasonActivity().actionActivity(activity,0)
         }
+        ivSummer.setOnClickListener {
+            SeasonActivity().actionActivity(activity,1)
+        }
         ivFall.setOnClickListener {
             SeasonActivity().actionActivity(activity,2)
+        }
+        ivWinter.setOnClickListener {
+            SeasonActivity().actionActivity(activity,3)
         }
     }
 
